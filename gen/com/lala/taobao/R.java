@@ -41,10 +41,20 @@ public final class R {
     }
     public static final class id {
         public static final int ViewPager=0x7f060000;
+        public static final int guide_account=0x7f060005;
+        public static final int guide_cart=0x7f060004;
+        public static final int guide_home=0x7f060001;
+        public static final int guide_nearby=0x7f060003;
+        public static final int guide_tfaccount=0x7f060002;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int common_title=0x7f030001;
+        public static final int accountfragment=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int cartfragment=0x7f030002;
+        public static final int common_title=0x7f030003;
+        public static final int mainfragment=0x7f030004;
+        public static final int nearbyfragment=0x7f030005;
+        public static final int tfaccountfragment=0x7f030006;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
