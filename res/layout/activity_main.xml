@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include 
+        layout="@layout/common_title" />"
+        
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    	<!-- 中间fragment -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#f9f9f9"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal"
+        	android:drawableTop="@drawable/guide_home_on"
+        	android:drawablePadding="2dp"
+        	android:text="首页"
+        	android:textColor="#ff5304"/>
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal"
+        	android:drawableTop="@drawable/guide_tfaccount_nm"
+        	android:drawablePadding="2dp"
+        	android:text="微淘"
+        	android:textColor="#626770"/>
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal"
+        	android:drawableTop="@drawable/guide_nearby_nm"
+        	android:drawablePadding="2dp"
+        	android:text="社区"
+        	android:textColor="#626770"/>
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal"
+        	android:drawableTop="@drawable/guide_cart_nm"
+        	android:drawablePadding="2dp"
+        	android:text="购物车"
+        	android:textColor="#626770"/>
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal"
+        	android:drawableTop="@drawable/guide_account_nm"
+        	android:drawablePadding="2dp"
+        	android:text="我的淘宝"
+        	android:textColor="#626770"/>
+    </LinearLayout>
+
+</LinearLayout>
